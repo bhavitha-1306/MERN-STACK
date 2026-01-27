@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const errorMessage = document.getElementById("error-message");
 
   // 🔹 OpenWeather API key
-  const API_KEY = "1cd2b29249eb7e5be5488409f40af3ad";
+//API Key
 
   // 🔹 Button click event
   getWeatherBtn.addEventListener("click", async () => {
