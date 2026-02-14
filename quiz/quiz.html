@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Simple Quiz App</title>
+  <link rel="stylesheet" href="quiz.css" />
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- Start Screen -->
+    <h1>Quiz App</h1>
+    <button id="start-btn">Start Quiz</button>
+
+    <!-- Question Screen -->
+    <div id="question-container" class="hidden">
+      <h2 id="question-text"></h2>
+      <ul id="choices-list"></ul>
+      <button id="next-btn" class="hidden">Next</button>
+    </div>
+
+    <!-- Result Screen -->
+    <div id="result-container" class="hidden">
+      <h2>Your Score</h2>
+      <p id="score"></p>
+      <button id="restart-btn">Restart Quiz</button>
+    </div>
+
+  </div>
+
+  <script src="quiz.js"></script>
+</body>
+</html>
